@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(211, 209, 209);
+}
+header{
+    background: rgb(0, 0, 0);
+    font-family: 'Mouse Memoirs', sans-serif;
+    width: 100%;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    padding : 0 23px;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(55, 184, 191);
+    font-weight: bold;
+ 
+}
+.logo{
+    display:flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding:0 25px;
+}
+.search{
+    display: flex;
+    align-items: center;
+
+}
+.search input{
+    width: 30vw;
+    height: 23px;
+    margin:0 26px 0 56px;
+}
+.search img{
+    margin:0 496px;
+    position: absolute;
+    width: 18px;
+}
+.card{
+    max-width: 85vw;
+    padding: 8px;
+  
+    margin: 37px auto;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+   min-height: calc(100vh - 58px - 25px);
+}
+.slider{
+    padding: 3px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.btn{
+    border: 2px solid wheat;
+    cursor: pointer;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+.btn:hover{
+    border-radius: 5ch;
+    border: 2px solid wheat;
+    cursor: pointer;
+
+}
+
+.lines{
+    display: flex;
+    justify-content: left;
+}
+/* .Items{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.Items-1 img{
+    width: 15vw;
+    margin: 0 1px;
+    overflow: hidden;
+    
+} */
+
+.cards{
+    display: flex; 
+    overflow: scroll;
+}
+
+.card-item-1{ 
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
