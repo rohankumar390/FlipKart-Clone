@@ -67,7 +67,7 @@ nav ul li a:hover{
 .btn{
     border: 2px solid wheat;
     cursor: pointer;
-    font-family: 'Mouse Memoirs', sans-serif;
+    /* font-family: 'Mouse Memoirs', sans-serif; */
 }
 .btn:hover{
     border-radius: 5ch;
@@ -102,6 +102,12 @@ nav ul li a:hover{
     display: flex; 
     overflow: scroll;
 }
+.cards-2{
+    display: flex; 
+    overflow: scroll;
+    /* margin: 3px; */
+}
+
 
 .card-item-1{ 
     display: inline-flex;
@@ -116,8 +122,10 @@ nav ul li a:hover{
     margin: 37px auto;
     background-color: rgb(255, 255, 255);
 }
-.new_card img 
-{
-  margin-bottom: -4px;
-    height: 4vh;
-}
+
+  .account{
+    height: 46px;
+    width: 44px;
+    margin-left: 513px;
+    margin-top: 6px;
+  }
