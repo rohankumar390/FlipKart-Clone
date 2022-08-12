@@ -6,11 +6,56 @@
     align-items: center;
     font-family: 'Mouse Memoirs', sans-serif;
 }
-footer{
+/* footer{
     color: wheat;
     background-color: #000;
     height:25px;
-}
+} */
 .text-center{
     text-align: center;
+}
+footer {
+    padding: 1px 0px;
+    background-color: #000;
+    color: wheat;
+    font-size: 21px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    margin: 2px;
+  }
+  
+  .footer__nav {
+    list-style: none;
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 0rem;
+  }
+  
+  .footer__item {
+    margin-right: 10rem;
+  }
+  
+  .footer__link {
+    font-size: 1.5rem;
+    color: #eee;
+    text-decoration: none;
+  }
+  
+  .footer__link:hover{
+    color: rgb(255, 170, 0);
+  }
+  
+  .footer__copyright {
+    font-size: 5    rem;
+    color: black;
+    text-align: center;
+  }
+  
+  .footer_copyright .footer_link {
+    padding: auto;
+    font-size: 3.4rem;
+    color: rgb(167, 167, 241);
+    
+  }
+  .right{
+    margin-left: auto;
 }
