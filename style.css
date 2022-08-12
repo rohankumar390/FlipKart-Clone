@@ -55,13 +55,7 @@ nav ul li a:hover{
     position: absolute;
     width: 18px;
 }
-.card{
-    max-width: 85vw;
-    padding: 8px;
-  
-    margin: 37px auto;
-    background-color: rgb(255, 255, 255);
-}
+
 .container{
    min-height: calc(100vh - 58px - 25px);
 }
@@ -97,7 +91,13 @@ nav ul li a:hover{
     overflow: hidden;
     
 } */
-
+.card{
+    max-width: 85vw;
+    padding: 8px;
+  
+    margin: 37px auto;
+    background-color: rgb(255, 255, 255);
+}
 .cards{
     display: flex; 
     overflow: scroll;
@@ -108,4 +108,16 @@ nav ul li a:hover{
     justify-content: center;
     flex-direction: column;
     margin: 0 15px;
+}
+.new_card{
+    max-width: 85vw;
+    padding: 8px;
+  
+    margin: 37px auto;
+    background-color: rgb(255, 255, 255);
+}
+.new_card img 
+{
+  margin-bottom: -4px;
+    height: 4vh;
 }
