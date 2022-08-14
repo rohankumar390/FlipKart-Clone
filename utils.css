@@ -66,3 +66,28 @@ footer {
 .right {
   margin-left: auto;
 }
+
+.col {
+  float: left;
+  width: 21.8%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+.col-1 {
+  float: left;
+  width: 51.8%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+.row-1{
+  margin: 77px;
+  display: flex;
+  justify-content: space-around;
+}
+/* Clear floats after the columns */
+.row-1:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-left: 3px;
+}
