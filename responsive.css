@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
 @media screen and (max-width:1000px) {
     nav {
         flex-direction: column;
@@ -46,4 +47,24 @@
         margin-left: 580px;
         margin-top: -64px;
       }
+      .col-1 {
+        float: left;
+        width: 51.8%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+      }
+      .row-1{
+        margin: 37px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .col {
+        float: left;
+        width: 31.8%;
+        padding: 10px;
+        height: 300px;
+        font-size:10px;
+         /* Should be removed. Only for demonstration */
+      }
+      
 }
